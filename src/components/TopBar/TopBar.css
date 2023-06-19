@@ -1,0 +1,20 @@
+.TopBar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.TopBar__Logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.TopBar__Actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
