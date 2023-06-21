@@ -1,8 +1,18 @@
 import "./Posts.css";
 
-const Posts = () => {
+// import component
+import Post from "../Post";
+
+const Posts = ({ posts }) => {
+    console.log(posts);
     return (
-        <div className="Posts">Posts</div>
+        <div className="Posts">
+            <ul>
+                {posts.map((post) => (<li key={post?.id}>
+                    <Post post={post} />
+                </li>))}
+            </ul>
+        </div>
     );
 }
 
