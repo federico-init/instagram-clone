@@ -4,5 +4,6 @@ import CameraIcon from "./CameraIcon";
 import InstagramLogo from "./InstagramLogo";
 import IGTVIcon from "./IGTVIcon";
 import MessangerIcon from "./MessangerIcon";
+import LikeIcon from "./LikeIcon";
 
-export { CameraIcon, InstagramLogo, IGTVIcon, MessangerIcon };
+export { CameraIcon, InstagramLogo, IGTVIcon, MessangerIcon, LikeIcon };

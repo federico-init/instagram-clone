@@ -17,7 +17,7 @@ const TopBar = () => {
                 <MessangerIcon />
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default TopBar;
