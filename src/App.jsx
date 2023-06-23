@@ -18,7 +18,7 @@ function App() {
 
   // eseguo la chiamata fetch tramite hook useEffect e setto il valore di posts ai dati estratti dalla fetch
   useEffect(() => {
-    fetch("https://api.npoint.io/8be99baa9f2796022b55")
+    fetch("https://api.npoint.io/0facd302b7109091fd20")
       .then(res => res.json())
       .then(data => setPosts(data));
   }, []);
